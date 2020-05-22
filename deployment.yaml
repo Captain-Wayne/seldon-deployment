@@ -9,7 +9,7 @@ spec:
         - spec:
             containers:
               - name: classifier
-                image: seldon-core-template-model
+                image: waynecoding/seldon-core-template-model
       graph:
         children: []
         endpoint:
